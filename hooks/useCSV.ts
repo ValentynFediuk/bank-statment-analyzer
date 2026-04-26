@@ -56,6 +56,7 @@ export function useCSV() {
     setData([]);
     setStatus("idle");
     setError(null);
+    setSkipped([]);
   };
 
   return {
